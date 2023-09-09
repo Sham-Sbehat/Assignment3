@@ -1,0 +1,48 @@
+.form{
+    background-color: rgb(45, 42, 41);
+    color: rgb(198, 108, 75);
+    width: 60%;
+    text-align:center;
+    margin-top: 60px;
+    margin: auto;
+    border-radius: 10px;
+    /* align-items: center; */
+    
+}
+input{
+    width:50%;
+    height: 30px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+button{
+    background-color: gray;
+    padding: 18px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+/* Style the modal */
+.modal {
+    display: none;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    color: green !important;
+    position: absolute;
+    transform: 1s;
+  }
+  
+  .modal.open {
+    display: block;
+  }
+  
+  /* Style buttons inside the modal */
+  .modal .btn {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 15px;
+  }
